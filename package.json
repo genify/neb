@@ -1,27 +1,27 @@
 {
-    "name": "shell",
-    "description": "nei mock server",
+    "name": "neb",
+    "description": "mock server for nei",
     "version": "0.0.1",
     "license": "MIT",
     "keywords": ["nei","web","server","mock","template","freemarker","velocity","javascript","front end"],
     "author": "genify <caijf@corp.netease.com> (http://genify.blog.163.com/)",
     "main": "./main.js",
     "bin": {
-        "shell": "./bin/shell.js"
+        "neb": "./bin/neb.js"
     },
-    "homepage": "https://github.com/genify/shell",
+    "homepage": "https://github.com/genify/neb",
     "scripts": {
         "test": "node test/run_tests.js"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/genify/shell.git"
+        "url": "https://github.com/genify/neb.git"
     },
     "engines":{
         "node":">=0.12"
     },
     "bugs": {
-        "url": "https://github.com/genify/shell/issues"
+        "url": "https://github.com/genify/neb/issues"
     },
     "devDependencies": {
         "mocha": ">=2.0.1",
