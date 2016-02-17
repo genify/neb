@@ -1,0 +1,33 @@
+{
+    "name": "shell",
+    "description": "nei mock server",
+    "version": "0.0.1",
+    "license": "MIT",
+    "keywords": ["nei","web","server","mock","template","freemarker","velocity","javascript","front end"],
+    "author": "genify <caijf@corp.netease.com> (http://genify.blog.163.com/)",
+    "main": "./main.js",
+    "bin": {
+        "shell": "./bin/shell.js"
+    },
+    "homepage": "https://github.com/genify/shell",
+    "scripts": {
+        "test": "node test/run_tests.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/genify/shell.git"
+    },
+    "engines":{
+        "node":">=0.12"
+    },
+    "bugs": {
+        "url": "https://github.com/genify/shell/issues"
+    },
+    "devDependencies": {
+        "mocha": ">=2.0.1",
+        "should": "^4.3.0"
+    },
+    "dependencies": {
+        "express":">=4.13.4"
+    }
+}
